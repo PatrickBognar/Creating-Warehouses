@@ -6,12 +6,13 @@ tdbc::odbc-Modul für die Datenbankverbindung
 Microsoft SQL Server (empfohlen ab Version 2016)
 ODBC-Treiber 17/18 für SQL Server
 Funktionen
-Datenbankerstellung: Erstellt automatisch die TPCC-Datenbank und alle erforderlichen Tabellen.
-Datenladung: Unterstützt das schnelle Einfügen großer Datenmengen in Tabellen mittels BCP (Bulk Copy Program).
-In-Memory-Unterstützung: Optionales Erstellen von Tabellen als In-Memory-Tabellen zur Leistungssteigerung.
-Mehrthreading: Unterstützt mehrthreadige Dateneinfügung zur Beschleunigung des Prozesses.
-Gespeicherte Prozeduren: Generiert und installiert automatisch TPCC-spezifische gespeicherte Prozeduren für Transaktionsverarbeitung.
-Statistikaktualisierung: Aktualisiert automatisch die Datenbankstatistiken, um die Abfrageleistung zu optimieren.
+**Datenbankerstellung**: Erstellt automatisch die TPCC-Datenbank und alle erforderlichen Tabellen.
+**Datenladung**: Unterstützt das schnelle Einfügen großer Datenmengen in Tabellen mittels BCP (Bulk Copy Program).
+**In-Memory-Unterstützung**: Optionales Erstellen von Tabellen als In-Memory-Tabellen zur Leistungssteigerung.
+**Mehrthreading**: Unterstützt mehrthreadige Dateneinfügung zur Beschleunigung des Prozesses.
+**Gespeicherte Prozeduren**: Generiert und installiert automatisch TPCC-spezifische gespeicherte Prozeduren für Transaktionsverarbeitung.
+**Statistikaktualisierung**: Aktualisiert automatisch die Datenbankstatistiken, um die Abfrageleistung zu optimieren.
+
 Installationsanweisungen
 Installiere TCL und erforderliche Module: Stelle sicher, dass TCL 8.6 oder höher installiert ist, zusammen mit dem tdbc::odbc-Modul.
 
